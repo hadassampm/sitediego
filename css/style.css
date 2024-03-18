@@ -1,0 +1,199 @@
+
+body{
+    background: rgb(113,16,12);
+    background: linear-gradient(90deg, rgba(113,16,12,1) 2%, rgba(121,51,32,1) 7%, rgba(121,70,42,1) 19%, rgba(112,55,29,1) 33%, rgba(96,28,5,1) 49%, rgba(52,20,12,1) 83%, rgba(0,0,0,1) 100%);
+}
+
+.logo {
+    display: block;
+    margin: 0 auto; /* Isso centraliza horizontalmente a imagem */
+   margin-left: -30%;
+   cursor: pointer;
+}
+
+.nav nav-underline{
+    padding: 4px 0;
+    border-bottom: 2px solid #ff9659;
+    color: #ff9659;
+}
+.navbar {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+}
+.navbar a {
+    color:#ffff;
+    background-color: transparent;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.w-nav {
+    position: relative;
+    z-index: 1000;
+}
+div {
+    display: block;
+}
+.nav-item{
+    display: inline-block;
+    margin-right: 10px;
+    flex-grow: 1;
+    color: #ff9659;
+}
+.nav-link{
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block; /* Garante que os links ocupem todo o espaço disponível no contêiner */
+    text-align: center;
+    color: #ff9659;
+}
+.nav-link.active,
+.nav-link:hover {
+    color: #ff9659;
+   background-color: transparent;
+}
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active {
+    color:#ff9659;
+}
+
+
+.hero-wrapper.masterclass {
+   margin-left: -60%;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Estilo para o grid */
+.w-layout-grid.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+/* Estilo para o título do herói */
+.heading-hero {
+    font-size: 80px; /* Tamanho do texto */
+    color: #fff; /* Cor do texto */
+    margin-bottom: 20px;
+}
+
+/* Estilo para o subtítulo do herói */
+.heading-3.hero-h3 {
+    font-size: 24px;
+    color:#ff9659;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o botão do herói */
+.cta-button.hero-button {
+    background-color:rgb(255, 106, 0);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: -60%;
+}
+
+/* Estilo para o parágrafo do herói */
+.paragraph.hero-paragraph {
+    font-size: 16px;
+    color:#ff9659;
+    margin-top: -35px;
+    margin-right: -40%;
+}
+
+/* Estilo para o vídeo incorporado */
+#w-node-e6ff84731c2b-f9b93eee iframe {
+    width: 70%;
+    height: 250px;
+    border: none;
+}
+
+
+/*DAQUI*/
+
+/* Estilo para a seção de informações */
+.info-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Estilo para o wrapper do contêiner */
+.container-wrapper {
+    max-width: 1200px; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner na tela */
+}
+
+/* Estilo para os títulos */
+.heading-4 {
+    font-size: 24px;
+    color:orangered;
+    margin-bottom: 20px;
+    margin-right: 60%;
+}
+
+.heading-2 {
+    font-size: 50px; /* Tamanho do texto */
+    color: #fff;
+    margin-right: 50%;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o texto da seção */
+.heading-3.section {
+    font-size: 20px;
+    color:#ff9659;
+    margin-bottom: 30px;
+    text-align: justify; /* Justifica o texto */
+}
+
+/* Estilo para o grid */
+.w-layout-grid.grid-3._3x3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+/* Estilo para os cartões */
+.dark-card {
+    background-color: #2a2929;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Estilo para os círculos */
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo para as imagens dos círculos */
+.circle img {
+    width: 38px;
+    height: 38px;
+}
+
+/* Estilo para os títulos dos cartões */
+.title {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Estilo para os parágrafos dos cartões */
+.paragraph {
+    font-size: 18px;
+    color:#ff9659;
+}
